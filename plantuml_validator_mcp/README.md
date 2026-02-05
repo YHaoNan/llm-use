@@ -2,6 +2,9 @@
 
 提供一个最小 MCP Server（stdio），暴露一个 tool：`plantuml_validate`，用于校验 PlantUML 语法。
 
+
+todo 修复jar路径
+
 ## 配置参数
 
 - PlantUML jar 包路径
@@ -56,3 +59,4 @@
 ```
 
 如果 Trae 一直显示“准备中”，优先把 `command` 改成绝对路径的 python.exe（避免 PATH 差异），并在 `env` 里临时加上 `"MCP_DEBUG": "1"` 便于从 stderr 排查启动与握手问题。
+
