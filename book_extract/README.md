@@ -2,6 +2,8 @@
 
 Book Extract 将书籍转换成 LLM 友好的 Markdown 文档集，并提供 MCP Server（stdio）对外暴露 `convert` 工具（当前内置仅支持 epub）。
 
+除了MCP Server，Book Extract还提供一个SKILL，用于让Agent驱动该MCP，帮助用户快速理解书籍。
+
 ## 输出结构
 ```
 chapter-index.json
